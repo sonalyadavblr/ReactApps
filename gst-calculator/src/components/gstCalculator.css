@@ -1,0 +1,91 @@
+/*----------------------Gst App Body--------------*/
+#gstAppBody{
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    height: 390px;
+    margin: 50px auto;
+    padding: 2%;
+    width: 33%;
+}
+/*----------------------Gst App Title-------------*/
+.gstAppTitle{
+    color: #70757A;
+    font-size: 18px;
+    padding: 4px 3px 4px 0;
+    text-align: center;
+}
+/*----------------------Gst App Operator--------------*/
+table {
+    width: 100%;
+}
+
+.gstAppCalculator{
+    height: 89%;
+    margin: 34px 0 0 0;
+}
+
+.gstAppLabels{
+    color: #70757A;
+    display: block;
+    padding: 6px 19px 6px 0;
+    margin: 15px 5px;
+}
+
+.gstAppOutputs{
+    font-size: 16px;
+    padding: 10px 0 10px 22px;
+    width: 88%;
+}
+
+input[type=text]{                          /*text-box css*/     
+    border-radius: 4px;
+    border: 1px solid #dfe1e5;
+    padding: 8px 18px;
+    color: #202124;
+    font-size: 16px;
+}
+
+.buttons{                                           /*buttons css*/
+    background: #e8eaeb;
+    border:1px solid #dfe1e5;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    color:#202124; 
+    cursor: pointer; 
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.gstAppPercent{
+    padding: 10px 20px;
+}
+
+.gstAppCalculateButton{
+    display: block;
+    padding: 10px 20px;
+    margin: 0px auto;
+}
+
+.buttons:hover {
+    background: #dfe1e5;;
+    border: 1px solid #e8eaeb;
+}
+.buttons:focus {
+    outline:0;
+   
+}
+.buttons::-moz-focus-inner {
+    border: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
